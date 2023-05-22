@@ -14,6 +14,7 @@ public class User implements Comparable <String>{ //añador setters para cambiar
 	}
 	public String getBBDD() {
 		return TablaAsociada;
+		//test
 	}
 	
 	User(String NombreUser, String Contrasenna){
