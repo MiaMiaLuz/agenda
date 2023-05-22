@@ -14,7 +14,7 @@ public class Consultas {
 	public final int ADD = 2;
 	public final int DELETE = 3;
 	
-	public String sql = "";
+	public String sql = "test patata";
 	
 	
 	public int AdDelAct(int i, String tabla, Tarea tarea) {
@@ -30,7 +30,6 @@ public class Consultas {
 					//pstm = con.prepareStatement(sql);
 					pstm = sqlCon.prepareStatement(sql);
 					pstm.executeUpdate();
-	
 			}
 		}
 		catch(SQLException ex) {
